@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive web design</title>
+<!-- --------------link font awesome--------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="stylesheet" href="./all.css" /> -->
+
+    <!-- <link rel="stylesheet" href="./aos.css"/> -->
+    <!-------------- ----Stylesheet--------- -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="media.css"> -->
+  </head>
+  <script>
+    
+  </script>
+  <body>
+    <!-- -----------main Section ------------------ -->
+    <main class="main">
+      <nav class="nav navbar nav-main-height" id="nav-height">
+        <div class="nav-brand">
+          <h1 class="material mat-landing">Material Landing</h1>
+        </div>
+        <div  onclick="myFunction()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="d-none" id="nav-toggle">
+          <ul class="nav-link">
+            <li class="nav-item">
+              <a href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">contact</a>
+            </li>
+            <button class="btn">DOWNLOAD</button>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="main-part">
+        <div class="main-text" data-aos="fade-up-left">
+          <h1>Your Success is our mission</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            animi deserunt. Eos recusandae quas aliquid fugit a suscipit
+            deleniti cupiditate?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, veritatis labore. Ut odio esse quis eaque, excepturi possimus accusantium similique.
+          </p>
+        </div>
+
+        <div class="main-btn">
+          <button class="view-btn" data-aos="fade-up-left">View Demo</button>
+          <button class="learn-btn" data-aos="fade-down-right">Learn More</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- -----------/ main Section ------------------ -->
+
+    <!-- -----------first Section ------------------ -->
+
+    <section class="first">
+      <div class="box1 box" data-aos="flip-up">
+        <i class="fa fa-line-chart fa-2x"></i>
+        <h2>
+          Agile <br />
+          Framework
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          consectetur nostrum aperiam numquam? Autem atque nihil fugiat dolorum,
+          asperiores esse!
+        </p>
+      </div>
+      <div class="box2 box" data-aos="flip-right">
+        <i class="fa fa-industry fa-2x"></i>
+        <h2>
+          Corporate <br />
+          statergy
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          consectetur nostrum aperiam numquam? Autem atque nihil fugiat dolorum,
+          asperiores esse!
+        </p>
+      </div>
+      <div class="box3 box" data-aos="flip-down">
+        <i class="fa fa-users fa-2x"></i>
+        <h2>
+          Workplace<br />
+          Diversity
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          consectetur nostrum aperiam numquam? Autem atque nihil fugiat dolorum,
+          asperiores esse!
+        </p>
+      </div>
+      <div class="box4 box" data-aos="flip-left">
+        <i class="fa fa-bullhorn fa-2x"></i>
+        <h2>
+          Survival <br />
+          stratergies
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+          consectetur nostrum aperiam numquam? Autem atque nihil fugiat dolorum,
+          asperiores esse!
+        </p>
+      </div>
+    </section>
+
+    <!-- -----------/ first Section ------------------ -->
+
+    <!-- ----------- second Section ------------------ -->
+    <section class="second">
+      <div class="first-part" data-aos="zoom-in">
+        <h1>Why Work with us ?</h1>
+        <h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+          officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Et, nesciunt.
+        </h6>
+      </div>
+      <div class="second-part" data-aos="fade-up" data-aos-duration="3000">
+        <div class="design box2">
+          <i class="fa fa-dashboard fa-3x orange-text"></i>
+
+          <h1>Design</h1>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repellendus soluta assumenda optio ad alias adipisci facilis officia
+            ipsam sunt commodi!
+          </h6>
+        </div>
+        <div class="feedback box2">
+          <i class="fa fa-comments fa-3x cyan-text"></i>
+          <h1>Feedback</h1>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repellendus soluta assumenda optio ad alias adipisci facilis officia
+            ipsam sunt commodi!
+          </h6>
+        </div>
+        <div class="executive box2">
+          <i class="fa fa-cubes fa-3x red-text"></i>
+
+          <h1>Executive</h1>
+          <h6>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repellendus soluta assumenda optio ad alias adipisci facilis officia
+            ipsam sunt commodi!
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------/ second Section ------------------ -->
+
+    <!-- ----------- Third Section ------------------ -->
+
+    <section class="third">
+      <div class="part-1" data-aos="zoom-in">
+        <h1>Our best Project</h1>
+        <h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+          officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Et, nesciunt. Lorem ipsum dolor sit amet consectetur.
+        </h6>
+      </div>
+      <div class="part-2">
+        <img src="kuala-lumpur.jpg" alt="" />
+
+        <div class="container">
+          <div class="item-1 items">
+            <i class="fa fa-book fa-2x cyan-text"></i>
+            <span>Education </span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+          <div class="item-1 items">
+            <i class="fa fa-code fa-2x red-text"></i>
+            <span>Technology</span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+          <div class="item-1 items">
+            <i class="fa-regular fa-money-bill-1"></i>
+            <span>Finance </span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="part-2">
+        <div class="container">
+          <div class="item-1 items">
+            <i class="fa fa-bar-chart fa-2x indigo-text"></i>
+            <span>Marketing </span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+          <div class="item-1 items">
+            <i class="fa fa-music fa-2x pink-text"></i>
+            <span>Entertairment </span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+          <div class="item-1 items">
+            <i class="fa fa-smile fa-2x blue-text"></i>
+            <span>Communication </span>
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              quis aliquam, at itaqur aperiam voluptatibus?
+            </h6>
+          </div>
+        </div>
+
+        <img src="san-francisco.jpg" alt="image" />
+      </div>
+    </section>
+
+    <!-- ----------- / Third Section ------------------ -->
+
+    <!-- -----------  Forth Section ------------------ -->
+    <section class="forth">
+      <div class="one" data-aos="zoom-in">
+        <h2>Our Pricing plan</h2>
+        <h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+          officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Et, nesciunt. Lorem ipsum dolor sit amet consectetur.
+        </h5>
+      </div>
+
+      <div class="two">
+        <div class="b-1">
+          <h3>Individual</h3>
+         <h3 class="doller"><sup><span class="span">&#36;</span></sup>9/m
+         </h3> 
+         <pre class="pre-tag " style="font-size: 1rem">1 person
+
+10 Project
+
+100 feature
+
+200gb storage
+
+         </pre>
+
+         <button class="buy-btn">Buy now</button>
+
+        </div>
+        <div class="b-1 b-2">
+          <h3>Startup</h3>
+         <h3 class="doller"><sup><span class="span">&#36;</span></sup>29/m
+         </h3> 
+         <pre class="pre-tag" style="font-size: 1rem">1 person
+
+10 Project
+
+100 feature
+
+200gb storage
+
+         </pre>
+
+         <button class="buy-btn">Buy now</button>
+
+        </div>
+        <div class="b-1 b-3">
+          <h3>Enterprice</h3>
+         <h3 class="doller"><sup><span class="span">&#36;</span></sup>99/m
+         </h3> 
+         <pre class="pre-tag" style="font-size: 1rem">1 person
+
+10 Project
+
+100 feature
+
+200gb storage
+
+         </pre>
+
+         <button class="buy-btn">Buy now</button>
+
+        </div>
+       
+      </div>
+      
+
+
+    </section>
+    
+
+    <!-- ----------- / Forth Section ------------------ -->
+
+<!-- ----------- Fifth Section ------------------ -->
+
+
+
+<div class="f-one" data-aos="zoom-in">
+  <h1 class="h25">Our team Members</h1>
+  <h5 class="h55">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+    officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    Et, nesciunt. Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, facere!
+  </h5>
+</div>
+
+
+  <script>
+    fetch('https://reqres.in/api/users?page=2')
+    .then(res =>  res.json())
+    .then(data => {
+      document.getElementById('team1').innerHTML = data.data.map((x) => 
+      `<div class="member">
+    <img src="${x.avatar}" alt="member-1">
+    <div class="mem-text">
+    <h3 class="m-text">${x.first_name}</h3>
+    <h3 class="l-text"></h3>
+    <h4 class="para-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, rem?</h4>
+    <a href="#" class="twit"><i class="fa-brands fa-twitter"></i>${x.email}</a>
+  </div>
+  </div>`
+
+     )
+    })
+
+  </script>
+
+ 
+ <div id="team1" class="team mem-padding">
+
+</div> 
+
+
+<div class="team">
+ 
+</div> 
+
+
+<!-- -----------/ Fifth Section ------------------ -->
+
+<!-- ----------- Six Section ------------------ -->
+
+<div class="p-six">
+<div class="f-one six" data-aos="zoom-in">
+  <h1 class="our-txt">Contact us</h1>
+  <h5 class="h55">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+    officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    Et, nesciunt. Lorem ipsum dolor sit amet consectetur.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, facere!
+  </h5>
+</div>
+
+
+<div class="form">
+  <form action="#" class="form-1">
+    <input type="text" class="name" placeholder="Your Name" required>
+<input type="email" class="email" placeholder="Your Email" required><br>
+<input type="text" class="subject" placeholder="Subject" required><br>
+<textarea name="#" class="message" cols="30" rows="2" placeholder="Your message" required></textarea><br>
+
+<button class="send-btn"><i class="fa-solid fa-paper-plane"></i>SEND</button>
+</form>
+
+<div class="form-2">
+  
+  <a href="#"><i class="fa-solid fa-location-dot fa-2x"></i></a><br>
+  <h4 class="form-d">140, City Center, New York, U.S.A </h4>
+
+  <a href="#"><i class="fa-solid fa-phone fa-2x"></i></a><br>
+  <h4 class="form-d">+01 234 567 89</h4>
+
+  <a href="#"><i class="fa-solid fa-envelope fa-2x"></i></a><br>
+  <h4 class="form-d">contact@company.com</h4>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- -----------/ Six Section ------------------ -->
+
+<!-- ----------- footer Section ------------------ -->
+
+<div class="footer">
+  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+<div class="footer-1">
+  <h4 class="foot">&#169; Material Landing <span class="design">-Design</span> TemplateFilp</h4>
+</div>
+
+
+<!-- -----------/ footer Section ------------------ -->
+
+<script src="./aos.js"></script>
+<script src="./main.js"></script>
+
+  </body>
+</html>
+
+

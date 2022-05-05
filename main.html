@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <h1 id ="head">i am a tag</h1>
+    <h2 id = "a1">i am in h2 </h2> 
+    <h3 class="heading">i am in h3</h3>    -->
+
+
+    <h1 class="head">hello</h1>
+    <button class="btn">Start</button>
+    <button class="stop">Stop</button>
+
+    <script>
+
+        const head = document.querySelector(".head");
+        const button = document.querySelector(".btn");
+        const stop = document.querySelector(".stop");
+        
+        let time;
+        let num=0;
+
+        const fun = ()=>{
+            
+            // head.innerHTML = "Fun"
+             time = setInterval(()=>{
+                head.innerHTML = `${num}`;
+                num++;
+            },1000)
+        }
+
+
+
+button.addEventListener("click", fun);
+
+stop.addEventListener("click", ()=>{
+    clearInterval(time);
+})
+
+
+
+
+
+
+    //     const obj = document.getElementById("head");
+    //    obj.style.color = "red";
+    //    const obj1 = document.getElementById("a1");
+    //     obj1.style.fontSize = "4rem";
+
+    //     const head = document.querySelector(".heading");
+    //     head.style.color = "green";
+
+
+    //     alert("visit google")
+    //     if(conorm("want to visit google")){
+    //         location.href = "https://www.google.com/"
+    //     }
+
+    //    </script>
+</body>
+</html>

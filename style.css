@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+/* ----------------i tag -------------- */
+
+.fa-bars{
+    font-size: 2rem;
+    color: white;    
+}
+
+.fa-dashboard{
+    color: #FF9800;
+}
+
+.fa-comments{
+    color: #00BCD4;
+}
+
+.fa-cubes{
+    color: #F44336;
+}
+
+.fa-book{
+    color:#00BCD4;
+}
+
+.fa-code{
+    font-size: 1.5rem;
+    color:#F44336;
+} 
+
+.fa-regular{
+    font-size: 1.8rem;
+    color: #673AB7;
+}
+
+.fa-bar-chart{
+    color: #3F51B5;
+}
+ 
+.fa-paper-plane{
+        margin-right: .6rem;
+    }
+
+.fa-music{
+    color: #E91E63;
+}
+
+.fa-smile{
+    color: #39A1F4;
+}
+
+.fa-location-dot{
+    margin-bottom: 1rem;
+    color: #3F51B5;
+}
+
+.fa-phone{
+    margin-bottom: 1rem;
+    color: #3F51B5;
+}
+
+.fa-envelope{
+    margin-bottom: 1rem;
+    color: #3F51B5;
+}
+
+.form-d{
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+/* .d-none {
+    display: none;
+ 
+} */
+/* ----------------i tag -------------- */
+
+
+
+/* -----------------nav bar ----------------- */
+
+.main{
+    background-image: 
+    linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url(./img1.jpg);
+    background-size: cover;
+    min-height: 120vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat center center/cover;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 0rem;
+    min-height: 4rem;
+    display: flex;
+    flex: 0.2;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.9;
+    box-shadow: 0 4px 6px -6px #222;
+    z-index: 99;
+}
+
+.nav .nav-link .nav-item a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .2rem .3rem;
+    color: white;
+}
+
+.nav .nav-link .nav-item a:hover{
+    color: white;
+    font-size: 1.2rem;
+ }
+
+.nav .nav-link .btn{
+    padding: .6rem 1.2rem;
+    font-size: .8rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 1.2rem;
+}
+
+.main .nav .nav-brand .material{
+    color: white;
+}
+
+.nav .nav-link .btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.nav .nav-link .nav-item{
+padding: .6rem 1.2rem;
+}
+
+.nav .nav-link{
+    display: flex;
+}
+
+/* ----------------//-nav bar ----------------- */
+
+
+/* -----------main Section ----------------- */
+
+.main .main-part{
+    width: 50%;
+    margin: 8rem 0 0 2.4rem; 
+}
+
+.main-part .main-text h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: -3.4rem;
+}
+
+.main-part .main-text p{
+font-size: 130%;
+color: white;
+margin-bottom: 4%;
+}
+
+.main-part .main-btn .view-btn, .learn-btn{
+    padding: 1rem 2.4rem;
+    font-size: 1rem;
+    border: 2px solid white;    
+}
+
+.main-part .main-btn .view-btn{
+    background: white;
+    color: gray;
+}
+
+.main-part .main-btn .view-btn:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.main-part .main-btn .learn-btn{
+    background: transparent;
+    color: white;
+}
+
+.main-part .main-btn .learn-btn:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+/* -----------//main Section ----------------- */
+
+
+/* ----------- Section first----------------- */
+
+.first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.first .box{
+    width: 25%;
+    text-align: center;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first .box1{
+    background-color: #7E57C2;
+}
+
+.first .box2{
+    background-color: #AB47BC;
+}
+
+.first .box3{
+    background-color: #26A69A;
+}
+
+.first .box4{
+    background-color: #29B6F6;
+}
+
+.first .box i,h2,p{
+color: white;
+}
+
+/* ----------- /Section first----------------- */
+
+
+/* ----------- Section second----------------- */
+.second{
+    height: auto;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.second .first-part{
+    padding: 5% 8%;
+}
+
+.second .first-part h1, .third .part-1 h1,.forth .part-1 h1{
+    font-size: 250%;
+    margin-bottom: 3%;    
+}
+
+.second .first-part h6, .third .part-1 h6, .forth .part-1, h6{
+    font-size: 130%;
+    font-weight: lighter;    
+}
+
+.second .second-part{
+    display: flex;    
+}
+
+.second .second-part .box2{
+    width: 30%;
+    height: 50vh;
+    margin: 2%;
+    padding: .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.second .second-part h6{
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 100;    
+}
+
+/* ----------- /Section second----------------- */
+
+
+/* ----------- Third Section----------------- */
+
+.third{
+    width: 100%;
+    height: auto;
+}
+
+.third .part-1{
+    padding: 2rem 7%;
+}
+
+.third .part-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.third .part-2 img{
+    width: 40%;
+    height: 40%;
+    padding: 2rem;
+}
+
+.third .part-2 .container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    width: 50%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.third .container .items h6{
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 100;
+    margin-left: 3rem;
+}
+
+.third .container .items span{
+    font-size: 1.4rem;
+    padding: 1rem;   
+}
+
+/* ----------- /Third Section---------------- */
+
+
+/* ----------- Forth Section---------------- */
+
+.forth{
+    width: 100%;
+    height: auto;
+    background: #3A49AB;
+}
+
+.forth .one{
+    padding: 4rem 4rem 1rem 4rem;
+}
+
+.forth .one h2{
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.forth .one h5{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.forth .two{
+    display: flex;
+    color: white;    
+}
+
+.forth .two .b-1,.b-2,.b-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 75vh;        
+    background-position-x: center;
+    background-size: cover;    
+    margin: 1.2rem; 
+    text-align: center;
+}
+
+.forth .two .b-1{
+    background-image: 
+        linear-gradient(45deg, rgba(32, 34, 32, 0.62), rgba(
+            32, 34, 32, 0.62)), url(./architecture.jpg);
+      
+}
+
+.forth .two .b-2{
+    background-image: 
+        linear-gradient(45deg, rgba(33, 216, 161, 0.62), rgba(
+            33, 216, 161, 0.62)), url(./architecture.jpg);
+}
+
+.forth .two .b-3{
+    background-image: 
+        linear-gradient(45deg, rgba(187, 53, 13, 0.62), rgba(
+            241, 114, 75, 0.62)), url(./architecture.jpg);      
+}
+
+.forth .two .b-1 h3{
+    font-size: 1.3rem;
+}
+
+.forth .two .b-1 .doller{
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.forth .two .b-1 .doller .span{
+    font-size: 3rem;
+}
+
+.forth .two .b-1 .buy-btn{
+    height: 10%;
+    width: 40%;
+    margin: 0rem auto;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 1rem;
+}
+
+/* ----------- /Forth Section---------------- */
+
+
+/* ----------- /Fifth Section---------------- */
+
+
+
+.f-one .h25{
+    color: black;
+    font-size: 2.5rem;
+    margin: 2rem auto;
+    padding-top: 4rem;
+}
+
+.f-one .h55{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: auto;
+    padding: 0 6rem 0 6rem;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+.team .member{
+    display: flex;
+    width: 48%;
+}
+
+.team .member img{
+    width: 120%;
+    padding: 1rem;
+}
+
+ .team .member .mem-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+}
+
+.m-text{
+    font-size: 1.7rem;
+    margin-bottom: -1rem;
+}
+
+.l-text{
+    font-size: 1rem;
+    color: gray;
+}
+
+.para-5{
+    font-weight: lighter;
+    color: #9E9E9E;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mem-padding{
+    padding-top: 5rem;
+}
+
+.twit{
+    color: #017BFF;
+}
+
+/* ----------- /Fifth Section---------------- */
+
+
+/* ----------- six Section---------------- */
+
+.p-six{
+    background-image:  linear-gradient(45deg, rgba(8, 10, 12, 0.62), rgba(3, 3, 14, 0.58)), url(./img1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+.p-six .six{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.p-six .six .our-txt{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 2.4rem;
+}
+
+.form{
+    width: 90%;
+    margin: 3rem auto;
+    background: white;
+    border-radius: .4rem;
+    padding:  3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-1{
+    width: 64%;
+}
+
+.form-2{
+    width: 32%;
+    text-align: center;
+}
+
+.name, .email{
+    width: 48%;
+}
+
+.form .form-1{
+    padding: 3rem;
+}
+
+.form .form-2{
+    padding: 2rem;
+}
+
+.form .form-1 .name,.email,.subject,.message{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+}
+
+.form .form-1 input.subject{
+    width: 100%;    
+}
+
+.form .form-1 input.email{
+    margin-left: 1rem;    
+} 
+
+.form .form-1 .send-btn{
+    color: white;
+    background: #3F51B5;
+    border: none;
+    padding: 1rem 2.4rem;
+}
+/* ----------- /six Section---------------- */
+
+
+/* ----------- footer Section---------------- */
+
+.footer{
+    text-align: center;
+    background: #303F9F;    
+}
+
+.fa-facebook-f,.fa-google-plus-g,.fa-twitter,.fa-linkedin{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.footer-1{
+    background: #263280;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0 1.2rem 0;
+}
+
+.footer-1 .foot{
+    font-weight: lighter;
+}
+
+.footer-1 .foot .design{
+    opacity: .6;
+}
+
+
+/* -----------/ footer Section---------------- */
+
+
+
+    
+
+
+
+
+
+/* ------------------Media Query  768 px----------- */
+
+@media(max-width: 768px) {
+    .main {
+        min-height: 80vh;
+        background-repeat: no-repeat center center/cover;
+    }
+    
+    .nav .nav-link{
+        display: none;
+        }
+
+        
+    .nav {
+        justify-content: space-between;
+        background-color: #3A49AB;
+    }
+
+.d-none{
+    display: none;
+}
+
+
+
+.nav-main-height{
+    background: black;
+    height: 15vh;
+}
+
+
+
+
+    .nav .nav-brand h1{
+        margin: 1rem;
+        color: white;
+    }
+
+
+    .fa-bars{
+        position: absolute;
+        right: 2rem;
+        font-size: 1.6rem;
+    }
+
+    
+  .main .main-part{
+      width: 90%;
+      font-size: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5rem;
+    
+    } 
+
+    .main .main-part .main-btn .view-btn, .learn-btn{
+        padding: .6rem 1.4rem;
+    }
+
+    .first .box{
+        width: 50%;
+        font-size: 100%;        
+    }
+
+    .second{
+        height: auto;
+    }
+
+    .third .part-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third .part-2 img{
+        width: 100%;
+    }
+
+    .third .part-2 .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .third .part-2 .container .item-1{
+        padding: 1rem;
+    }
+
+    .forth .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 200%;   
+    }
+
+    .forth .two .b-1{
+        width: 88%;
+        height: 70vh;
+    }
+
+    .forth .two .b-1 .buy-btn{
+        font-size: 1.8rem;
+    }
+
+    .team{
+        padding: 1rem;
+    }
+
+    .team .member img{
+        width: 50%;
+    }
+
+    .team, .team .member{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .team .member .mem-text{
+        margin-left: 0rem;
+    }
+
+    .mem-text{
+        padding: 2rem 0  0;
+    }
+
+    .m-text, .l-test, .para-5,.twit{
+        margin-bottom: 1rem;
+    } 
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;    
+    }
+
+
+    .form .form-1 .name,.email,.subject{
+       width: 100%;
+    }
+    
+    .form .form-1{
+        width: 100%;
+    }
+
+    .form .form-2{
+        width: 100%;
+    }
+
+    .form .form-1 .email{
+    margin-left: 0;
+    }
+
+}
+
+
+@media(min-width: 768px) {
+.fa-bars{
+    display: none;
+}
+
+}
+
+/* -----------------/ Media Query ----------- */
+
+
+
+
+/* ------------------Media Query  600 px----------- */
+
+@media(max-width: 600px){
+    .main-part .main-btn .view-btn{
+        width: 75%;
+    }
+
+    .main-part .main-btn .learn-btn{
+        width: 75%;
+        margin-top: 1rem;
+    }
+
+    .first .box{
+        width: 100%;
+        font-size: 1rem;
+        justify-content: space-between;        
+    }
+
+    .second .second-part{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .second .second-part .box2{
+        width: 100%;
+        height:fit-content;
+    }
+
+}
+
+
+
+
+
+
+/* -----------------/ Media Query ----------- */
